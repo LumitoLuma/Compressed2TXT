@@ -1,17 +1,24 @@
-# Compressed 2 TXT (formerly File2Batch / res2batch)  
-Windows 7 support ( PowerShell 2.0 / C# 2.0 )  
+# Compressed 2 TXT (formerly File2Batch / res2batch). Mod by Lumito  
+Windows 7-10 support ( PowerShell 2.0 / C# 2.0 )  
 Very fast encoding and decoding BAT85 and BAT91 classes  
 Multiple file(s) and folder(s) "Send to" menu selection  
 
 ![preview](preview.png)
 
-## What's new in v6.1 final:  
+## Differences between original (official) version:  
+New GUI option (7): No console output (in the new file). This disables the "Microsoft Expansion Utility" output and final pause  
+Disabled `chcp 65001 >nul` due to console size modifications  
+Improved the console output experience (during compression)  
+Other minor improvements  
+
+## What's new in v6.1 mod:  
 GUI option 1: Input decoding key as password - saved in external file `output~key.ini`  
 GUI option 2: Randomize decoding key (use with 1)  
 GUI option 3: BAT91 encoder instead of BAT85 -1.7% size but uses web-problematic chars ``<*`%\>``  
 GUI option 4: No long lines (adds more overhead)  
 GUI option 5: No LZX compression (for dense files)  
 GUI option 6: No txt encoding (cab archive only)  
+GUI option 7: No console output (in the new file)  
 
 __::__ prefix to disable syntax highlight in advanced text viewers is always used  
 encoded text is either split at __128__ chars or at __<1024__ chars to keep lame new windows notepad happy  
