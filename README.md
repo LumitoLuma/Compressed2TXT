@@ -6,10 +6,10 @@ Multiple file(s) and folder(s) "Send to" menu selection
 ![preview](preview.png)
 
 ## Differences between original (official) version:  
-New GUI option (7): No console output (in the new file). This disables the "Microsoft Expansion Utility" output and final pause  
-Disabled `chcp 65001 >nul` due to console size modifications  
-Improved the console output experience (during compression)  
-Other minor improvements  
+-   New GUI option (7): No console output (in the new file). This disables the "Microsoft Expansion Utility" output and final pause  
+-   Disabled `chcp 65001 >nul` due to console size modifications  
+-   Improved the console output experience (during compression)  
+-   Other minor improvements  
 
 ## What's new in v6.1 mod:  
 GUI option 1: Input decoding key as password - saved in external file `output~key.ini`  
